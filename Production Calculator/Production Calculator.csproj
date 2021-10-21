@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{955A8E86-DAE1-4631-9F42-D1AD78DBD326}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Production_Calculator</RootNamespace>
+    <AssemblyName>Production Calculator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="src\anno.cs" />
+    <Compile Include="src\calculate.cs" />
+    <Compile Include="src\memory.cs" />
+    <Compile Include="src\reader.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beggar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candlesticks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carpets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Citizen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Envoys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FurCoats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marzipan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Milk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noblemen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nomads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parfum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patrician.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peasant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SugarCane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sugar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Almonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoseOil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pearls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoffeeBeans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Furs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quartz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IronOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barrels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grapes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cattle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopperOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beeswax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indigo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimalHides.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Herbs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrocadeRobes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeatherJerkins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LinenGarments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PearlNecklaces.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
