@@ -1,4 +1,5 @@
 # Anno 1404 Helper
+Inspired by https://github.com/waldi/Anno1404Warenrechner
 ## Preview
 ![preview](https://i.imgur.com/UdE5pN7.png)
 ## Contains
