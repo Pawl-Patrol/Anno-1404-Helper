@@ -32,61 +32,89 @@
             this.groupPopulation = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelBeggars = new System.Windows.Forms.Label();
+            this.îconBeggars = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.labelPeasants = new System.Windows.Forms.Label();
+            this.iconPeasants = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.labelCitizens = new System.Windows.Forms.Label();
+            this.iconCitizens = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.labelPatricians = new System.Windows.Forms.Label();
+            this.iconPatricians = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.labelNoblemen = new System.Windows.Forms.Label();
+            this.iconNoblemen = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.labelNomads = new System.Windows.Forms.Label();
+            this.iconNomads = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.labelEnvoys = new System.Windows.Forms.Label();
+            this.iconEnvoys = new System.Windows.Forms.PictureBox();
             this.groupConsumption = new System.Windows.Forms.GroupBox();
             this.panel22 = new System.Windows.Forms.Panel();
             this.labelDates = new System.Windows.Forms.Label();
+            this.iconDates = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.labelBooks = new System.Windows.Forms.Label();
+            this.iconBooks = new System.Windows.Forms.PictureBox();
             this.panel23 = new System.Windows.Forms.Panel();
             this.labelMilk = new System.Windows.Forms.Label();
+            this.iconMilk = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.labelFish = new System.Windows.Forms.Label();
+            this.iconFish = new System.Windows.Forms.PictureBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.labelCarpets = new System.Windows.Forms.Label();
+            this.iconCarpets = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.labelCandlesticks = new System.Windows.Forms.Label();
+            this.iconCandlesticks = new System.Windows.Forms.PictureBox();
             this.panel25 = new System.Windows.Forms.Panel();
             this.labelCoffee = new System.Windows.Forms.Label();
+            this.iconCoffee = new System.Windows.Forms.PictureBox();
             this.panel26 = new System.Windows.Forms.Panel();
             this.labelPearlNecklaces = new System.Windows.Forms.Label();
+            this.iconPearlNecklaces = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.labelCider = new System.Windows.Forms.Label();
+            this.iconCider = new System.Windows.Forms.PictureBox();
             this.panel27 = new System.Windows.Forms.Panel();
             this.labelParfum = new System.Windows.Forms.Label();
+            this.iconParfum = new System.Windows.Forms.PictureBox();
             this.panel17 = new System.Windows.Forms.Panel();
             this.labelMeat = new System.Windows.Forms.Label();
+            this.iconMeat = new System.Windows.Forms.PictureBox();
             this.panel28 = new System.Windows.Forms.Panel();
             this.labelMarzipan = new System.Windows.Forms.Label();
+            this.iconMarzipan = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.labelLinenGarments = new System.Windows.Forms.Label();
+            this.iconLinenGarments = new System.Windows.Forms.PictureBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.labelWine = new System.Windows.Forms.Label();
+            this.iconWine = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.labelSpices = new System.Windows.Forms.Label();
+            this.iconSpices = new System.Windows.Forms.PictureBox();
             this.panel19 = new System.Windows.Forms.Panel();
             this.labelGlasses = new System.Windows.Forms.Label();
+            this.iconGlasses = new System.Windows.Forms.PictureBox();
             this.panel20 = new System.Windows.Forms.Panel();
             this.labelFurCoats = new System.Windows.Forms.Label();
+            this.iconFurCoats = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.labelBread = new System.Windows.Forms.Label();
+            this.iconBread = new System.Windows.Forms.PictureBox();
             this.panel21 = new System.Windows.Forms.Panel();
             this.labelBrocadeRobes = new System.Windows.Forms.Label();
+            this.iconBrocadeRobes = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.labelBeer = new System.Windows.Forms.Label();
+            this.iconBeer = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.labelLeatherJerkins = new System.Windows.Forms.Label();
+            this.iconLeatherJerkins = new System.Windows.Forms.PictureBox();
             this.groupControls = new System.Windows.Forms.GroupBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -102,94 +130,67 @@
             this.selectVersion = new System.Windows.Forms.ComboBox();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.rangeInterval = new System.Windows.Forms.NumericUpDown();
-            this.iconDates = new System.Windows.Forms.PictureBox();
-            this.iconBooks = new System.Windows.Forms.PictureBox();
-            this.iconMilk = new System.Windows.Forms.PictureBox();
-            this.iconFish = new System.Windows.Forms.PictureBox();
-            this.iconCarpets = new System.Windows.Forms.PictureBox();
-            this.iconCandlesticks = new System.Windows.Forms.PictureBox();
-            this.iconCoffee = new System.Windows.Forms.PictureBox();
-            this.iconPearlNecklaces = new System.Windows.Forms.PictureBox();
-            this.iconCider = new System.Windows.Forms.PictureBox();
-            this.iconParfum = new System.Windows.Forms.PictureBox();
-            this.iconMeat = new System.Windows.Forms.PictureBox();
-            this.iconMarzipan = new System.Windows.Forms.PictureBox();
-            this.iconLinenGarments = new System.Windows.Forms.PictureBox();
-            this.iconWine = new System.Windows.Forms.PictureBox();
-            this.iconSpices = new System.Windows.Forms.PictureBox();
-            this.iconGlasses = new System.Windows.Forms.PictureBox();
-            this.iconFurCoats = new System.Windows.Forms.PictureBox();
-            this.iconBread = new System.Windows.Forms.PictureBox();
-            this.iconBrocadeRobes = new System.Windows.Forms.PictureBox();
-            this.iconBeer = new System.Windows.Forms.PictureBox();
-            this.iconLeatherJerkins = new System.Windows.Forms.PictureBox();
-            this.îconBeggars = new System.Windows.Forms.PictureBox();
-            this.iconPeasants = new System.Windows.Forms.PictureBox();
-            this.iconCitizens = new System.Windows.Forms.PictureBox();
-            this.iconPatricians = new System.Windows.Forms.PictureBox();
-            this.iconNoblemen = new System.Windows.Forms.PictureBox();
-            this.iconNomads = new System.Windows.Forms.PictureBox();
-            this.iconEnvoys = new System.Windows.Forms.PictureBox();
+            this.checkHistory = new System.Windows.Forms.CheckBox();
             this.groupPopulation.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.îconBeggars)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPeasants)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCitizens)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPatricians)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconNoblemen)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconNomads)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconEnvoys)).BeginInit();
             this.groupConsumption.SuspendLayout();
             this.panel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconDates)).BeginInit();
             this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBooks)).BeginInit();
             this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMilk)).BeginInit();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFish)).BeginInit();
             this.panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCarpets)).BeginInit();
             this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCandlesticks)).BeginInit();
             this.panel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCoffee)).BeginInit();
             this.panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPearlNecklaces)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCider)).BeginInit();
             this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconParfum)).BeginInit();
             this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMeat)).BeginInit();
             this.panel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMarzipan)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconLinenGarments)).BeginInit();
             this.panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconWine)).BeginInit();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSpices)).BeginInit();
             this.panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconGlasses)).BeginInit();
             this.panel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFurCoats)).BeginInit();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBread)).BeginInit();
             this.panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBrocadeRobes)).BeginInit();
             this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBeer)).BeginInit();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconLeatherJerkins)).BeginInit();
             this.groupControls.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rangeInterval)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconDates)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBooks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMilk)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFish)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCarpets)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCandlesticks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCoffee)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPearlNecklaces)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCider)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconParfum)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMeat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMarzipan)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLinenGarments)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconWine)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconSpices)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconGlasses)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFurCoats)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBread)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBrocadeRobes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBeer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLeatherJerkins)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.îconBeggars)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPeasants)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCitizens)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPatricians)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNoblemen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNomads)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconEnvoys)).BeginInit();
             this.SuspendLayout();
             // 
             // groupPopulation
@@ -226,6 +227,15 @@
             this.labelBeggars.Text = "?";
             this.labelBeggars.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // îconBeggars
+            // 
+            this.îconBeggars.Image = global::Production_Calculator.Properties.Resources.Beggar;
+            this.îconBeggars.Location = new System.Drawing.Point(3, 3);
+            this.îconBeggars.Name = "îconBeggars";
+            this.îconBeggars.Size = new System.Drawing.Size(46, 46);
+            this.îconBeggars.TabIndex = 3;
+            this.îconBeggars.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.labelPeasants);
@@ -243,6 +253,15 @@
             this.labelPeasants.TabIndex = 4;
             this.labelPeasants.Text = "?";
             this.labelPeasants.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconPeasants
+            // 
+            this.iconPeasants.Image = global::Production_Calculator.Properties.Resources.Peasant;
+            this.iconPeasants.Location = new System.Drawing.Point(3, 3);
+            this.iconPeasants.Name = "iconPeasants";
+            this.iconPeasants.Size = new System.Drawing.Size(46, 46);
+            this.iconPeasants.TabIndex = 3;
+            this.iconPeasants.TabStop = false;
             // 
             // panel3
             // 
@@ -262,6 +281,15 @@
             this.labelCitizens.Text = "?";
             this.labelCitizens.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconCitizens
+            // 
+            this.iconCitizens.Image = global::Production_Calculator.Properties.Resources.Citizen;
+            this.iconCitizens.Location = new System.Drawing.Point(3, 3);
+            this.iconCitizens.Name = "iconCitizens";
+            this.iconCitizens.Size = new System.Drawing.Size(46, 46);
+            this.iconCitizens.TabIndex = 3;
+            this.iconCitizens.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.labelPatricians);
@@ -279,6 +307,15 @@
             this.labelPatricians.TabIndex = 4;
             this.labelPatricians.Text = "?";
             this.labelPatricians.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconPatricians
+            // 
+            this.iconPatricians.Image = global::Production_Calculator.Properties.Resources.Patrician;
+            this.iconPatricians.Location = new System.Drawing.Point(3, 3);
+            this.iconPatricians.Name = "iconPatricians";
+            this.iconPatricians.Size = new System.Drawing.Size(46, 46);
+            this.iconPatricians.TabIndex = 3;
+            this.iconPatricians.TabStop = false;
             // 
             // panel5
             // 
@@ -298,6 +335,15 @@
             this.labelNoblemen.Text = "?";
             this.labelNoblemen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconNoblemen
+            // 
+            this.iconNoblemen.Image = global::Production_Calculator.Properties.Resources.Noblemen;
+            this.iconNoblemen.Location = new System.Drawing.Point(3, 3);
+            this.iconNoblemen.Name = "iconNoblemen";
+            this.iconNoblemen.Size = new System.Drawing.Size(46, 46);
+            this.iconNoblemen.TabIndex = 3;
+            this.iconNoblemen.TabStop = false;
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.labelNomads);
@@ -316,6 +362,15 @@
             this.labelNomads.Text = "?";
             this.labelNomads.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconNomads
+            // 
+            this.iconNomads.Image = global::Production_Calculator.Properties.Resources.Nomads;
+            this.iconNomads.Location = new System.Drawing.Point(3, 3);
+            this.iconNomads.Name = "iconNomads";
+            this.iconNomads.Size = new System.Drawing.Size(46, 46);
+            this.iconNomads.TabIndex = 3;
+            this.iconNomads.TabStop = false;
+            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.labelEnvoys);
@@ -333,6 +388,15 @@
             this.labelEnvoys.TabIndex = 4;
             this.labelEnvoys.Text = "?";
             this.labelEnvoys.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconEnvoys
+            // 
+            this.iconEnvoys.Image = global::Production_Calculator.Properties.Resources.Envoys;
+            this.iconEnvoys.Location = new System.Drawing.Point(3, 3);
+            this.iconEnvoys.Name = "iconEnvoys";
+            this.iconEnvoys.Size = new System.Drawing.Size(46, 46);
+            this.iconEnvoys.TabIndex = 3;
+            this.iconEnvoys.TabStop = false;
             // 
             // groupConsumption
             // 
@@ -382,6 +446,17 @@
             this.labelDates.Text = "?";
             this.labelDates.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconDates
+            // 
+            this.iconDates.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconDates.Image = global::Production_Calculator.Properties.Resources.Dates;
+            this.iconDates.Location = new System.Drawing.Point(3, 3);
+            this.iconDates.Name = "iconDates";
+            this.iconDates.Size = new System.Drawing.Size(46, 46);
+            this.iconDates.TabIndex = 3;
+            this.iconDates.TabStop = false;
+            this.iconDates.Click += new System.EventHandler(this.iconDates_Click);
+            // 
             // panel15
             // 
             this.panel15.Controls.Add(this.labelBooks);
@@ -399,6 +474,17 @@
             this.labelBooks.TabIndex = 4;
             this.labelBooks.Text = "?";
             this.labelBooks.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconBooks
+            // 
+            this.iconBooks.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBooks.Image = global::Production_Calculator.Properties.Resources.Books;
+            this.iconBooks.Location = new System.Drawing.Point(3, 3);
+            this.iconBooks.Name = "iconBooks";
+            this.iconBooks.Size = new System.Drawing.Size(46, 46);
+            this.iconBooks.TabIndex = 3;
+            this.iconBooks.TabStop = false;
+            this.iconBooks.Click += new System.EventHandler(this.iconBooks_Click);
             // 
             // panel23
             // 
@@ -418,6 +504,17 @@
             this.labelMilk.Text = "?";
             this.labelMilk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconMilk
+            // 
+            this.iconMilk.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconMilk.Image = global::Production_Calculator.Properties.Resources.Milk;
+            this.iconMilk.Location = new System.Drawing.Point(3, 3);
+            this.iconMilk.Name = "iconMilk";
+            this.iconMilk.Size = new System.Drawing.Size(46, 46);
+            this.iconMilk.TabIndex = 3;
+            this.iconMilk.TabStop = false;
+            this.iconMilk.Click += new System.EventHandler(this.iconMilk_Click);
+            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.labelFish);
@@ -435,6 +532,17 @@
             this.labelFish.TabIndex = 4;
             this.labelFish.Text = "?";
             this.labelFish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconFish
+            // 
+            this.iconFish.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconFish.Image = global::Production_Calculator.Properties.Resources.Fish;
+            this.iconFish.Location = new System.Drawing.Point(3, 3);
+            this.iconFish.Name = "iconFish";
+            this.iconFish.Size = new System.Drawing.Size(46, 46);
+            this.iconFish.TabIndex = 3;
+            this.iconFish.TabStop = false;
+            this.iconFish.Click += new System.EventHandler(this.iconFish_Click);
             // 
             // panel24
             // 
@@ -454,6 +562,17 @@
             this.labelCarpets.Text = "?";
             this.labelCarpets.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconCarpets
+            // 
+            this.iconCarpets.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconCarpets.Image = global::Production_Calculator.Properties.Resources.Carpets;
+            this.iconCarpets.Location = new System.Drawing.Point(3, 3);
+            this.iconCarpets.Name = "iconCarpets";
+            this.iconCarpets.Size = new System.Drawing.Size(46, 46);
+            this.iconCarpets.TabIndex = 3;
+            this.iconCarpets.TabStop = false;
+            this.iconCarpets.Click += new System.EventHandler(this.iconCarpets_Click);
+            // 
             // panel16
             // 
             this.panel16.Controls.Add(this.labelCandlesticks);
@@ -471,6 +590,17 @@
             this.labelCandlesticks.TabIndex = 4;
             this.labelCandlesticks.Text = "?";
             this.labelCandlesticks.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconCandlesticks
+            // 
+            this.iconCandlesticks.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconCandlesticks.Image = global::Production_Calculator.Properties.Resources.Candlesticks;
+            this.iconCandlesticks.Location = new System.Drawing.Point(3, 3);
+            this.iconCandlesticks.Name = "iconCandlesticks";
+            this.iconCandlesticks.Size = new System.Drawing.Size(46, 46);
+            this.iconCandlesticks.TabIndex = 3;
+            this.iconCandlesticks.TabStop = false;
+            this.iconCandlesticks.Click += new System.EventHandler(this.iconCandlesticks_Click);
             // 
             // panel25
             // 
@@ -490,6 +620,17 @@
             this.labelCoffee.Text = "?";
             this.labelCoffee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconCoffee
+            // 
+            this.iconCoffee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconCoffee.Image = global::Production_Calculator.Properties.Resources.Coffee;
+            this.iconCoffee.Location = new System.Drawing.Point(3, 3);
+            this.iconCoffee.Name = "iconCoffee";
+            this.iconCoffee.Size = new System.Drawing.Size(46, 46);
+            this.iconCoffee.TabIndex = 3;
+            this.iconCoffee.TabStop = false;
+            this.iconCoffee.Click += new System.EventHandler(this.iconCoffee_Click);
+            // 
             // panel26
             // 
             this.panel26.Controls.Add(this.labelPearlNecklaces);
@@ -507,6 +648,17 @@
             this.labelPearlNecklaces.TabIndex = 4;
             this.labelPearlNecklaces.Text = "?";
             this.labelPearlNecklaces.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconPearlNecklaces
+            // 
+            this.iconPearlNecklaces.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconPearlNecklaces.Image = global::Production_Calculator.Properties.Resources.PearlNecklaces;
+            this.iconPearlNecklaces.Location = new System.Drawing.Point(3, 3);
+            this.iconPearlNecklaces.Name = "iconPearlNecklaces";
+            this.iconPearlNecklaces.Size = new System.Drawing.Size(46, 46);
+            this.iconPearlNecklaces.TabIndex = 3;
+            this.iconPearlNecklaces.TabStop = false;
+            this.iconPearlNecklaces.Click += new System.EventHandler(this.iconPearlNecklaces_Click);
             // 
             // panel9
             // 
@@ -526,6 +678,17 @@
             this.labelCider.Text = "?";
             this.labelCider.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconCider
+            // 
+            this.iconCider.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconCider.Image = global::Production_Calculator.Properties.Resources.Cider;
+            this.iconCider.Location = new System.Drawing.Point(3, 3);
+            this.iconCider.Name = "iconCider";
+            this.iconCider.Size = new System.Drawing.Size(46, 46);
+            this.iconCider.TabIndex = 3;
+            this.iconCider.TabStop = false;
+            this.iconCider.Click += new System.EventHandler(this.iconCider_Click);
+            // 
             // panel27
             // 
             this.panel27.Controls.Add(this.labelParfum);
@@ -543,6 +706,17 @@
             this.labelParfum.TabIndex = 4;
             this.labelParfum.Text = "?";
             this.labelParfum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconParfum
+            // 
+            this.iconParfum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconParfum.Image = global::Production_Calculator.Properties.Resources.Parfum;
+            this.iconParfum.Location = new System.Drawing.Point(3, 3);
+            this.iconParfum.Name = "iconParfum";
+            this.iconParfum.Size = new System.Drawing.Size(46, 46);
+            this.iconParfum.TabIndex = 3;
+            this.iconParfum.TabStop = false;
+            this.iconParfum.Click += new System.EventHandler(this.iconParfum_Click);
             // 
             // panel17
             // 
@@ -562,6 +736,17 @@
             this.labelMeat.Text = "?";
             this.labelMeat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconMeat
+            // 
+            this.iconMeat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconMeat.Image = global::Production_Calculator.Properties.Resources.Meat;
+            this.iconMeat.Location = new System.Drawing.Point(3, 3);
+            this.iconMeat.Name = "iconMeat";
+            this.iconMeat.Size = new System.Drawing.Size(46, 46);
+            this.iconMeat.TabIndex = 3;
+            this.iconMeat.TabStop = false;
+            this.iconMeat.Click += new System.EventHandler(this.iconMeat_Click);
+            // 
             // panel28
             // 
             this.panel28.Controls.Add(this.labelMarzipan);
@@ -579,6 +764,17 @@
             this.labelMarzipan.TabIndex = 4;
             this.labelMarzipan.Text = "?";
             this.labelMarzipan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconMarzipan
+            // 
+            this.iconMarzipan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconMarzipan.Image = global::Production_Calculator.Properties.Resources.Marzipan;
+            this.iconMarzipan.Location = new System.Drawing.Point(3, 3);
+            this.iconMarzipan.Name = "iconMarzipan";
+            this.iconMarzipan.Size = new System.Drawing.Size(46, 46);
+            this.iconMarzipan.TabIndex = 3;
+            this.iconMarzipan.TabStop = false;
+            this.iconMarzipan.Click += new System.EventHandler(this.iconMarzipan_Click);
             // 
             // panel10
             // 
@@ -598,6 +794,17 @@
             this.labelLinenGarments.Text = "?";
             this.labelLinenGarments.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconLinenGarments
+            // 
+            this.iconLinenGarments.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconLinenGarments.Image = global::Production_Calculator.Properties.Resources.LinenGarments;
+            this.iconLinenGarments.Location = new System.Drawing.Point(3, 3);
+            this.iconLinenGarments.Name = "iconLinenGarments";
+            this.iconLinenGarments.Size = new System.Drawing.Size(46, 46);
+            this.iconLinenGarments.TabIndex = 3;
+            this.iconLinenGarments.TabStop = false;
+            this.iconLinenGarments.Click += new System.EventHandler(this.iconLinenGarments_Click);
+            // 
             // panel18
             // 
             this.panel18.Controls.Add(this.labelWine);
@@ -615,6 +822,17 @@
             this.labelWine.TabIndex = 4;
             this.labelWine.Text = "?";
             this.labelWine.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconWine
+            // 
+            this.iconWine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconWine.Image = global::Production_Calculator.Properties.Resources.Wine;
+            this.iconWine.Location = new System.Drawing.Point(3, 3);
+            this.iconWine.Name = "iconWine";
+            this.iconWine.Size = new System.Drawing.Size(46, 46);
+            this.iconWine.TabIndex = 3;
+            this.iconWine.TabStop = false;
+            this.iconWine.Click += new System.EventHandler(this.iconWine_Click);
             // 
             // panel11
             // 
@@ -634,6 +852,17 @@
             this.labelSpices.Text = "?";
             this.labelSpices.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconSpices
+            // 
+            this.iconSpices.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconSpices.Image = global::Production_Calculator.Properties.Resources.Spices;
+            this.iconSpices.Location = new System.Drawing.Point(3, 3);
+            this.iconSpices.Name = "iconSpices";
+            this.iconSpices.Size = new System.Drawing.Size(46, 46);
+            this.iconSpices.TabIndex = 3;
+            this.iconSpices.TabStop = false;
+            this.iconSpices.Click += new System.EventHandler(this.iconSpices_Click);
+            // 
             // panel19
             // 
             this.panel19.Controls.Add(this.labelGlasses);
@@ -651,6 +880,17 @@
             this.labelGlasses.TabIndex = 4;
             this.labelGlasses.Text = "?";
             this.labelGlasses.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconGlasses
+            // 
+            this.iconGlasses.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconGlasses.Image = global::Production_Calculator.Properties.Resources.Glasses;
+            this.iconGlasses.Location = new System.Drawing.Point(3, 3);
+            this.iconGlasses.Name = "iconGlasses";
+            this.iconGlasses.Size = new System.Drawing.Size(46, 46);
+            this.iconGlasses.TabIndex = 3;
+            this.iconGlasses.TabStop = false;
+            this.iconGlasses.Click += new System.EventHandler(this.iconGlasses_Click);
             // 
             // panel20
             // 
@@ -670,6 +910,17 @@
             this.labelFurCoats.Text = "?";
             this.labelFurCoats.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconFurCoats
+            // 
+            this.iconFurCoats.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconFurCoats.Image = global::Production_Calculator.Properties.Resources.FurCoats;
+            this.iconFurCoats.Location = new System.Drawing.Point(3, 3);
+            this.iconFurCoats.Name = "iconFurCoats";
+            this.iconFurCoats.Size = new System.Drawing.Size(46, 46);
+            this.iconFurCoats.TabIndex = 3;
+            this.iconFurCoats.TabStop = false;
+            this.iconFurCoats.Click += new System.EventHandler(this.iconFurCoats_Click);
+            // 
             // panel12
             // 
             this.panel12.Controls.Add(this.labelBread);
@@ -687,6 +938,17 @@
             this.labelBread.TabIndex = 4;
             this.labelBread.Text = "?";
             this.labelBread.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconBread
+            // 
+            this.iconBread.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBread.Image = global::Production_Calculator.Properties.Resources.Bread;
+            this.iconBread.Location = new System.Drawing.Point(3, 3);
+            this.iconBread.Name = "iconBread";
+            this.iconBread.Size = new System.Drawing.Size(46, 46);
+            this.iconBread.TabIndex = 3;
+            this.iconBread.TabStop = false;
+            this.iconBread.Click += new System.EventHandler(this.iconBread_Click);
             // 
             // panel21
             // 
@@ -706,6 +968,17 @@
             this.labelBrocadeRobes.Text = "?";
             this.labelBrocadeRobes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconBrocadeRobes
+            // 
+            this.iconBrocadeRobes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBrocadeRobes.Image = global::Production_Calculator.Properties.Resources.BrocadeRobes;
+            this.iconBrocadeRobes.Location = new System.Drawing.Point(3, 3);
+            this.iconBrocadeRobes.Name = "iconBrocadeRobes";
+            this.iconBrocadeRobes.Size = new System.Drawing.Size(46, 46);
+            this.iconBrocadeRobes.TabIndex = 3;
+            this.iconBrocadeRobes.TabStop = false;
+            this.iconBrocadeRobes.Click += new System.EventHandler(this.iconBrocadeRobes_Click);
+            // 
             // panel13
             // 
             this.panel13.Controls.Add(this.labelBeer);
@@ -723,6 +996,17 @@
             this.labelBeer.TabIndex = 4;
             this.labelBeer.Text = "?";
             this.labelBeer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconBeer
+            // 
+            this.iconBeer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBeer.Image = global::Production_Calculator.Properties.Resources.Beer;
+            this.iconBeer.Location = new System.Drawing.Point(3, 3);
+            this.iconBeer.Name = "iconBeer";
+            this.iconBeer.Size = new System.Drawing.Size(46, 46);
+            this.iconBeer.TabIndex = 3;
+            this.iconBeer.TabStop = false;
+            this.iconBeer.Click += new System.EventHandler(this.iconBeer_Click);
             // 
             // panel14
             // 
@@ -742,8 +1026,20 @@
             this.labelLeatherJerkins.Text = "?";
             this.labelLeatherJerkins.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconLeatherJerkins
+            // 
+            this.iconLeatherJerkins.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconLeatherJerkins.Image = global::Production_Calculator.Properties.Resources.LeatherJerkins;
+            this.iconLeatherJerkins.Location = new System.Drawing.Point(3, 3);
+            this.iconLeatherJerkins.Name = "iconLeatherJerkins";
+            this.iconLeatherJerkins.Size = new System.Drawing.Size(46, 46);
+            this.iconLeatherJerkins.TabIndex = 3;
+            this.iconLeatherJerkins.TabStop = false;
+            this.iconLeatherJerkins.Click += new System.EventHandler(this.iconLeatherJerkins_Click);
+            // 
             // groupControls
             // 
+            this.groupControls.Controls.Add(this.checkHistory);
             this.groupControls.Controls.Add(this.label33);
             this.groupControls.Controls.Add(this.label32);
             this.groupControls.Controls.Add(this.textOffset);
@@ -801,7 +1097,7 @@
             // 
             // checkOverwrite
             // 
-            this.checkOverwrite.Location = new System.Drawing.Point(6, 288);
+            this.checkOverwrite.Location = new System.Drawing.Point(6, 315);
             this.checkOverwrite.Name = "checkOverwrite";
             this.checkOverwrite.Size = new System.Drawing.Size(121, 21);
             this.checkOverwrite.TabIndex = 15;
@@ -812,15 +1108,16 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(61, 237);
+            this.label31.Location = new System.Drawing.Point(61, 264);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(47, 13);
             this.label31.TabIndex = 11;
             this.label31.Text = "seconds";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // checkTop
             // 
-            this.checkTop.Location = new System.Drawing.Point(6, 261);
+            this.checkTop.Location = new System.Drawing.Point(6, 288);
             this.checkTop.Name = "checkTop";
             this.checkTop.Size = new System.Drawing.Size(81, 21);
             this.checkTop.TabIndex = 10;
@@ -830,11 +1127,11 @@
             // 
             // checkTimer
             // 
-            this.checkTimer.Location = new System.Drawing.Point(6, 211);
+            this.checkTimer.Location = new System.Drawing.Point(6, 238);
             this.checkTimer.Name = "checkTimer";
             this.checkTimer.Size = new System.Drawing.Size(116, 21);
             this.checkTimer.TabIndex = 9;
-            this.checkTimer.Text = " Auto update every";
+            this.checkTimer.Text = "Auto update every";
             this.checkTimer.UseVisualStyleBackColor = true;
             this.checkTimer.CheckedChanged += new System.EventHandler(this.checkTimer_CheckedChanged);
             // 
@@ -874,10 +1171,12 @@
             this.selectVersion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.selectVersion.FormattingEnabled = true;
             this.selectVersion.Items.AddRange(new object[] {
-            "1404",
-            "1404 Venice",
-            "1404 HE",
-            "1404 Venice HE"});
+            "1404 v1.02.2619",
+            "1404 v1.03.3650",
+            "Venice v2.00.5008",
+            "Venice v2.01.5020",
+            "1404 History",
+            "Venice History"});
             this.selectVersion.Location = new System.Drawing.Point(6, 40);
             this.selectVersion.Name = "selectVersion";
             this.selectVersion.Size = new System.Drawing.Size(121, 21);
@@ -886,9 +1185,9 @@
             // 
             // buttonCalculate
             // 
-            this.buttonCalculate.Location = new System.Drawing.Point(6, 315);
+            this.buttonCalculate.Location = new System.Drawing.Point(6, 342);
             this.buttonCalculate.Name = "buttonCalculate";
-            this.buttonCalculate.Size = new System.Drawing.Size(121, 50);
+            this.buttonCalculate.Size = new System.Drawing.Size(121, 23);
             this.buttonCalculate.TabIndex = 5;
             this.buttonCalculate.Text = "Calculate";
             this.buttonCalculate.UseVisualStyleBackColor = true;
@@ -897,7 +1196,7 @@
             // rangeInterval
             // 
             this.rangeInterval.Enabled = false;
-            this.rangeInterval.Location = new System.Drawing.Point(6, 235);
+            this.rangeInterval.Location = new System.Drawing.Point(6, 262);
             this.rangeInterval.Maximum = new decimal(new int[] {
             300,
             0,
@@ -918,299 +1217,15 @@
             0});
             this.rangeInterval.ValueChanged += new System.EventHandler(this.rangeInterval_ValueChanged);
             // 
-            // iconDates
+            // checkHistory
             // 
-            this.iconDates.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconDates.Image = global::Production_Calculator.Properties.Resources.Dates;
-            this.iconDates.Location = new System.Drawing.Point(3, 3);
-            this.iconDates.Name = "iconDates";
-            this.iconDates.Size = new System.Drawing.Size(46, 46);
-            this.iconDates.TabIndex = 3;
-            this.iconDates.TabStop = false;
-            this.iconDates.Click += new System.EventHandler(this.iconDates_Click);
-            // 
-            // iconBooks
-            // 
-            this.iconBooks.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconBooks.Image = global::Production_Calculator.Properties.Resources.Books;
-            this.iconBooks.Location = new System.Drawing.Point(3, 3);
-            this.iconBooks.Name = "iconBooks";
-            this.iconBooks.Size = new System.Drawing.Size(46, 46);
-            this.iconBooks.TabIndex = 3;
-            this.iconBooks.TabStop = false;
-            this.iconBooks.Click += new System.EventHandler(this.iconBooks_Click);
-            // 
-            // iconMilk
-            // 
-            this.iconMilk.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconMilk.Image = global::Production_Calculator.Properties.Resources.Milk;
-            this.iconMilk.Location = new System.Drawing.Point(3, 3);
-            this.iconMilk.Name = "iconMilk";
-            this.iconMilk.Size = new System.Drawing.Size(46, 46);
-            this.iconMilk.TabIndex = 3;
-            this.iconMilk.TabStop = false;
-            this.iconMilk.Click += new System.EventHandler(this.iconMilk_Click);
-            // 
-            // iconFish
-            // 
-            this.iconFish.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconFish.Image = global::Production_Calculator.Properties.Resources.Fish;
-            this.iconFish.Location = new System.Drawing.Point(3, 3);
-            this.iconFish.Name = "iconFish";
-            this.iconFish.Size = new System.Drawing.Size(46, 46);
-            this.iconFish.TabIndex = 3;
-            this.iconFish.TabStop = false;
-            this.iconFish.Click += new System.EventHandler(this.iconFish_Click);
-            // 
-            // iconCarpets
-            // 
-            this.iconCarpets.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconCarpets.Image = global::Production_Calculator.Properties.Resources.Carpets;
-            this.iconCarpets.Location = new System.Drawing.Point(3, 3);
-            this.iconCarpets.Name = "iconCarpets";
-            this.iconCarpets.Size = new System.Drawing.Size(46, 46);
-            this.iconCarpets.TabIndex = 3;
-            this.iconCarpets.TabStop = false;
-            this.iconCarpets.Click += new System.EventHandler(this.iconCarpets_Click);
-            // 
-            // iconCandlesticks
-            // 
-            this.iconCandlesticks.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconCandlesticks.Image = global::Production_Calculator.Properties.Resources.Candlesticks;
-            this.iconCandlesticks.Location = new System.Drawing.Point(3, 3);
-            this.iconCandlesticks.Name = "iconCandlesticks";
-            this.iconCandlesticks.Size = new System.Drawing.Size(46, 46);
-            this.iconCandlesticks.TabIndex = 3;
-            this.iconCandlesticks.TabStop = false;
-            this.iconCandlesticks.Click += new System.EventHandler(this.iconCandlesticks_Click);
-            // 
-            // iconCoffee
-            // 
-            this.iconCoffee.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconCoffee.Image = global::Production_Calculator.Properties.Resources.Coffee;
-            this.iconCoffee.Location = new System.Drawing.Point(3, 3);
-            this.iconCoffee.Name = "iconCoffee";
-            this.iconCoffee.Size = new System.Drawing.Size(46, 46);
-            this.iconCoffee.TabIndex = 3;
-            this.iconCoffee.TabStop = false;
-            this.iconCoffee.Click += new System.EventHandler(this.iconCoffee_Click);
-            // 
-            // iconPearlNecklaces
-            // 
-            this.iconPearlNecklaces.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconPearlNecklaces.Image = global::Production_Calculator.Properties.Resources.PearlNecklaces;
-            this.iconPearlNecklaces.Location = new System.Drawing.Point(3, 3);
-            this.iconPearlNecklaces.Name = "iconPearlNecklaces";
-            this.iconPearlNecklaces.Size = new System.Drawing.Size(46, 46);
-            this.iconPearlNecklaces.TabIndex = 3;
-            this.iconPearlNecklaces.TabStop = false;
-            this.iconPearlNecklaces.Click += new System.EventHandler(this.iconPearlNecklaces_Click);
-            // 
-            // iconCider
-            // 
-            this.iconCider.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconCider.Image = global::Production_Calculator.Properties.Resources.Cider;
-            this.iconCider.Location = new System.Drawing.Point(3, 3);
-            this.iconCider.Name = "iconCider";
-            this.iconCider.Size = new System.Drawing.Size(46, 46);
-            this.iconCider.TabIndex = 3;
-            this.iconCider.TabStop = false;
-            this.iconCider.Click += new System.EventHandler(this.iconCider_Click);
-            // 
-            // iconParfum
-            // 
-            this.iconParfum.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconParfum.Image = global::Production_Calculator.Properties.Resources.Parfum;
-            this.iconParfum.Location = new System.Drawing.Point(3, 3);
-            this.iconParfum.Name = "iconParfum";
-            this.iconParfum.Size = new System.Drawing.Size(46, 46);
-            this.iconParfum.TabIndex = 3;
-            this.iconParfum.TabStop = false;
-            this.iconParfum.Click += new System.EventHandler(this.iconParfum_Click);
-            // 
-            // iconMeat
-            // 
-            this.iconMeat.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconMeat.Image = global::Production_Calculator.Properties.Resources.Meat;
-            this.iconMeat.Location = new System.Drawing.Point(3, 3);
-            this.iconMeat.Name = "iconMeat";
-            this.iconMeat.Size = new System.Drawing.Size(46, 46);
-            this.iconMeat.TabIndex = 3;
-            this.iconMeat.TabStop = false;
-            this.iconMeat.Click += new System.EventHandler(this.iconMeat_Click);
-            // 
-            // iconMarzipan
-            // 
-            this.iconMarzipan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconMarzipan.Image = global::Production_Calculator.Properties.Resources.Marzipan;
-            this.iconMarzipan.Location = new System.Drawing.Point(3, 3);
-            this.iconMarzipan.Name = "iconMarzipan";
-            this.iconMarzipan.Size = new System.Drawing.Size(46, 46);
-            this.iconMarzipan.TabIndex = 3;
-            this.iconMarzipan.TabStop = false;
-            this.iconMarzipan.Click += new System.EventHandler(this.iconMarzipan_Click);
-            // 
-            // iconLinenGarments
-            // 
-            this.iconLinenGarments.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconLinenGarments.Image = global::Production_Calculator.Properties.Resources.LinenGarments;
-            this.iconLinenGarments.Location = new System.Drawing.Point(3, 3);
-            this.iconLinenGarments.Name = "iconLinenGarments";
-            this.iconLinenGarments.Size = new System.Drawing.Size(46, 46);
-            this.iconLinenGarments.TabIndex = 3;
-            this.iconLinenGarments.TabStop = false;
-            this.iconLinenGarments.Click += new System.EventHandler(this.iconLinenGarments_Click);
-            // 
-            // iconWine
-            // 
-            this.iconWine.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconWine.Image = global::Production_Calculator.Properties.Resources.Wine;
-            this.iconWine.Location = new System.Drawing.Point(3, 3);
-            this.iconWine.Name = "iconWine";
-            this.iconWine.Size = new System.Drawing.Size(46, 46);
-            this.iconWine.TabIndex = 3;
-            this.iconWine.TabStop = false;
-            this.iconWine.Click += new System.EventHandler(this.iconWine_Click);
-            // 
-            // iconSpices
-            // 
-            this.iconSpices.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconSpices.Image = global::Production_Calculator.Properties.Resources.Spices;
-            this.iconSpices.Location = new System.Drawing.Point(3, 3);
-            this.iconSpices.Name = "iconSpices";
-            this.iconSpices.Size = new System.Drawing.Size(46, 46);
-            this.iconSpices.TabIndex = 3;
-            this.iconSpices.TabStop = false;
-            this.iconSpices.Click += new System.EventHandler(this.iconSpices_Click);
-            // 
-            // iconGlasses
-            // 
-            this.iconGlasses.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconGlasses.Image = global::Production_Calculator.Properties.Resources.Glasses;
-            this.iconGlasses.Location = new System.Drawing.Point(3, 3);
-            this.iconGlasses.Name = "iconGlasses";
-            this.iconGlasses.Size = new System.Drawing.Size(46, 46);
-            this.iconGlasses.TabIndex = 3;
-            this.iconGlasses.TabStop = false;
-            this.iconGlasses.Click += new System.EventHandler(this.iconGlasses_Click);
-            // 
-            // iconFurCoats
-            // 
-            this.iconFurCoats.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconFurCoats.Image = global::Production_Calculator.Properties.Resources.FurCoats;
-            this.iconFurCoats.Location = new System.Drawing.Point(3, 3);
-            this.iconFurCoats.Name = "iconFurCoats";
-            this.iconFurCoats.Size = new System.Drawing.Size(46, 46);
-            this.iconFurCoats.TabIndex = 3;
-            this.iconFurCoats.TabStop = false;
-            this.iconFurCoats.Click += new System.EventHandler(this.iconFurCoats_Click);
-            // 
-            // iconBread
-            // 
-            this.iconBread.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconBread.Image = global::Production_Calculator.Properties.Resources.Bread;
-            this.iconBread.Location = new System.Drawing.Point(3, 3);
-            this.iconBread.Name = "iconBread";
-            this.iconBread.Size = new System.Drawing.Size(46, 46);
-            this.iconBread.TabIndex = 3;
-            this.iconBread.TabStop = false;
-            this.iconBread.Click += new System.EventHandler(this.iconBread_Click);
-            // 
-            // iconBrocadeRobes
-            // 
-            this.iconBrocadeRobes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconBrocadeRobes.Image = global::Production_Calculator.Properties.Resources.BrocadeRobes;
-            this.iconBrocadeRobes.Location = new System.Drawing.Point(3, 3);
-            this.iconBrocadeRobes.Name = "iconBrocadeRobes";
-            this.iconBrocadeRobes.Size = new System.Drawing.Size(46, 46);
-            this.iconBrocadeRobes.TabIndex = 3;
-            this.iconBrocadeRobes.TabStop = false;
-            this.iconBrocadeRobes.Click += new System.EventHandler(this.iconBrocadeRobes_Click);
-            // 
-            // iconBeer
-            // 
-            this.iconBeer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconBeer.Image = global::Production_Calculator.Properties.Resources.Beer;
-            this.iconBeer.Location = new System.Drawing.Point(3, 3);
-            this.iconBeer.Name = "iconBeer";
-            this.iconBeer.Size = new System.Drawing.Size(46, 46);
-            this.iconBeer.TabIndex = 3;
-            this.iconBeer.TabStop = false;
-            this.iconBeer.Click += new System.EventHandler(this.iconBeer_Click);
-            // 
-            // iconLeatherJerkins
-            // 
-            this.iconLeatherJerkins.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconLeatherJerkins.Image = global::Production_Calculator.Properties.Resources.LeatherJerkins;
-            this.iconLeatherJerkins.Location = new System.Drawing.Point(3, 3);
-            this.iconLeatherJerkins.Name = "iconLeatherJerkins";
-            this.iconLeatherJerkins.Size = new System.Drawing.Size(46, 46);
-            this.iconLeatherJerkins.TabIndex = 3;
-            this.iconLeatherJerkins.TabStop = false;
-            this.iconLeatherJerkins.Click += new System.EventHandler(this.iconLeatherJerkins_Click);
-            // 
-            // îconBeggars
-            // 
-            this.îconBeggars.Image = global::Production_Calculator.Properties.Resources.Beggar;
-            this.îconBeggars.Location = new System.Drawing.Point(3, 3);
-            this.îconBeggars.Name = "îconBeggars";
-            this.îconBeggars.Size = new System.Drawing.Size(46, 46);
-            this.îconBeggars.TabIndex = 3;
-            this.îconBeggars.TabStop = false;
-            // 
-            // iconPeasants
-            // 
-            this.iconPeasants.Image = global::Production_Calculator.Properties.Resources.Peasant;
-            this.iconPeasants.Location = new System.Drawing.Point(3, 3);
-            this.iconPeasants.Name = "iconPeasants";
-            this.iconPeasants.Size = new System.Drawing.Size(46, 46);
-            this.iconPeasants.TabIndex = 3;
-            this.iconPeasants.TabStop = false;
-            // 
-            // iconCitizens
-            // 
-            this.iconCitizens.Image = global::Production_Calculator.Properties.Resources.Citizen;
-            this.iconCitizens.Location = new System.Drawing.Point(3, 3);
-            this.iconCitizens.Name = "iconCitizens";
-            this.iconCitizens.Size = new System.Drawing.Size(46, 46);
-            this.iconCitizens.TabIndex = 3;
-            this.iconCitizens.TabStop = false;
-            // 
-            // iconPatricians
-            // 
-            this.iconPatricians.Image = global::Production_Calculator.Properties.Resources.Patrician;
-            this.iconPatricians.Location = new System.Drawing.Point(3, 3);
-            this.iconPatricians.Name = "iconPatricians";
-            this.iconPatricians.Size = new System.Drawing.Size(46, 46);
-            this.iconPatricians.TabIndex = 3;
-            this.iconPatricians.TabStop = false;
-            // 
-            // iconNoblemen
-            // 
-            this.iconNoblemen.Image = global::Production_Calculator.Properties.Resources.Noblemen;
-            this.iconNoblemen.Location = new System.Drawing.Point(3, 3);
-            this.iconNoblemen.Name = "iconNoblemen";
-            this.iconNoblemen.Size = new System.Drawing.Size(46, 46);
-            this.iconNoblemen.TabIndex = 3;
-            this.iconNoblemen.TabStop = false;
-            // 
-            // iconNomads
-            // 
-            this.iconNomads.Image = global::Production_Calculator.Properties.Resources.Nomads;
-            this.iconNomads.Location = new System.Drawing.Point(3, 3);
-            this.iconNomads.Name = "iconNomads";
-            this.iconNomads.Size = new System.Drawing.Size(46, 46);
-            this.iconNomads.TabIndex = 3;
-            this.iconNomads.TabStop = false;
-            // 
-            // iconEnvoys
-            // 
-            this.iconEnvoys.Image = global::Production_Calculator.Properties.Resources.Envoys;
-            this.iconEnvoys.Location = new System.Drawing.Point(3, 3);
-            this.iconEnvoys.Name = "iconEnvoys";
-            this.iconEnvoys.Size = new System.Drawing.Size(46, 46);
-            this.iconEnvoys.TabIndex = 3;
-            this.iconEnvoys.TabStop = false;
+            this.checkHistory.Enabled = false;
+            this.checkHistory.Location = new System.Drawing.Point(6, 211);
+            this.checkHistory.Name = "checkHistory";
+            this.checkHistory.Size = new System.Drawing.Size(125, 21);
+            this.checkHistory.TabIndex = 21;
+            this.checkHistory.Text = "History Edition (64bit)";
+            this.checkHistory.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1227,65 +1242,65 @@
             this.Text = "Production Calculator";
             this.groupPopulation.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.îconBeggars)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPeasants)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconCitizens)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPatricians)).EndInit();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconNoblemen)).EndInit();
             this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconNomads)).EndInit();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconEnvoys)).EndInit();
             this.groupConsumption.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconDates)).EndInit();
             this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBooks)).EndInit();
             this.panel23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconMilk)).EndInit();
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconFish)).EndInit();
             this.panel24.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconCarpets)).EndInit();
             this.panel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconCandlesticks)).EndInit();
             this.panel25.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconCoffee)).EndInit();
             this.panel26.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPearlNecklaces)).EndInit();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconCider)).EndInit();
             this.panel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconParfum)).EndInit();
             this.panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconMeat)).EndInit();
             this.panel28.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconMarzipan)).EndInit();
             this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconLinenGarments)).EndInit();
             this.panel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconWine)).EndInit();
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconSpices)).EndInit();
             this.panel19.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconGlasses)).EndInit();
             this.panel20.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconFurCoats)).EndInit();
             this.panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBread)).EndInit();
             this.panel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBrocadeRobes)).EndInit();
             this.panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBeer)).EndInit();
             this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconLeatherJerkins)).EndInit();
             this.groupControls.ResumeLayout(false);
             this.groupControls.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rangeInterval)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconDates)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBooks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMilk)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFish)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCarpets)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCandlesticks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCoffee)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPearlNecklaces)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCider)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconParfum)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMeat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconMarzipan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLinenGarments)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconWine)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconSpices)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconGlasses)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFurCoats)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBread)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBrocadeRobes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBeer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLeatherJerkins)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.îconBeggars)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPeasants)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconCitizens)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPatricians)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNoblemen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNomads)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconEnvoys)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1393,6 +1408,7 @@
         private System.Windows.Forms.CheckBox checkOverwrite;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.CheckBox checkHistory;
     }
 }
 

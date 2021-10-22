@@ -59,8 +59,7 @@ namespace Production_Calculator
                 MessageBox.Show($"Invalid address or offset");
                 return;
             }
-            bool x64 = selectVersion.SelectedIndex > 1;
-            population = Reader.ReadPopulation(processes[0], address, offset, x64);
+            population = Reader.ReadPopulation(processes[0], address, offset, checkHistory.Checked);
             needs = Calculator.CalculateNeeds(population);
 
             labelBeggars.Text = population[(int)Population.Beggars].ToString();
@@ -165,6 +164,7 @@ namespace Production_Calculator
         {
             textAddress.Enabled = checkOverwrite.Checked;
             textOffset.Enabled = checkOverwrite.Checked;
+            checkHistory.Enabled = checkOverwrite.Checked;
         }
 
         private void checkTimer_CheckedChanged(object sender, EventArgs e)
@@ -187,6 +187,8 @@ namespace Production_Calculator
 
             long offset = Constants.AddressOffsets[selectVersion.SelectedIndex];
             textOffset.Text = offset < 0 ? "null" : "0x" + offset.ToString("X").ToLower();
+
+            checkHistory.Checked = selectVersion.SelectedIndex > 3;
         }
 
         private void rangeInterval_ValueChanged(object sender, EventArgs e)
@@ -408,6 +410,11 @@ namespace Production_Calculator
             dict.Add(Properties.Resources.Sugar, need);
             dict.Add(Properties.Resources.SugarCane, need * 2.0f);
             ProductionChainDialog("Marzipan", dict);
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
