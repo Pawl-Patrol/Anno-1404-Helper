@@ -13,8 +13,8 @@ namespace Production_Calculator
 {
     public partial class Form1 : System.Windows.Forms.Form
     {
-        private int[] population;
-        private float[] needs;
+        private int[] population = new int[(int)Population.Length];
+        private float[] needs = new float[(int)Needs.Length];
         private Timer timer = new Timer();
         public Form1()
         {
@@ -60,7 +60,7 @@ namespace Production_Calculator
                 return;
             }
             population = Reader.ReadPopulation(processes[0], address, offset, checkHistory.Checked);
-            needs = Calculator.CalculateNeeds(population);
+            float[] _needs = Calculator.CalculateNeeds(population);
 
             labelBeggars.Text = population[(int)Population.Beggars].ToString();
             labelPeasants.Text = population[(int)Population.Peasants].ToString();
@@ -70,27 +70,38 @@ namespace Production_Calculator
             labelNomads.Text = population[(int)Population.Nomads].ToString();
             labelEnvoys.Text = population[(int)Population.Envoys].ToString();
 
-            labelFish.Text = needs[(int)Needs.Fish].ToString("F2");
-            labelCider.Text = needs[(int)Needs.Cider].ToString("F2");
-            labelLinenGarments.Text = needs[(int)Needs.LinenGarments].ToString("F2");
-            labelSpices.Text = needs[(int)Needs.Spices].ToString("F2");
-            labelBread.Text = needs[(int)Needs.Bread].ToString("F2");
-            labelBeer.Text = needs[(int)Needs.Beer].ToString("F2");
-            labelLeatherJerkins.Text = needs[(int)Needs.LeatherJerkins].ToString("F2");
-            labelBooks.Text = needs[(int)Needs.Books].ToString("F2");
-            labelCandlesticks.Text = needs[(int)Needs.Candlesticks].ToString("F2");
-            labelMeat.Text = needs[(int)Needs.Meat].ToString("F2");
-            labelWine.Text = needs[(int)Needs.Wine].ToString("F2");
-            labelGlasses.Text = needs[(int)Needs.Glasses].ToString("F2");
-            labelFurCoats.Text = needs[(int)Needs.FurCoats].ToString("F2");
-            labelBrocadeRobes.Text = needs[(int)Needs.BrocadeRobes].ToString("F2");
-            labelDates.Text = needs[(int)Needs.Dates].ToString("F2");
-            labelMilk.Text = needs[(int)Needs.Milk].ToString("F2");
-            labelCarpets.Text = needs[(int)Needs.Carpets].ToString("F2");
-            labelCoffee.Text = needs[(int)Needs.Coffee].ToString("F2");
-            labelPearlNecklaces.Text = needs[(int)Needs.PearlNecklaces].ToString("F2");
-            labelParfum.Text = needs[(int)Needs.Parfum].ToString("F2");
-            labelMarzipan.Text = needs[(int)Needs.Marzipan].ToString("F2");
+            UpdateNeeds(labelFish, Needs.Fish, _needs);
+            UpdateNeeds(labelCider, Needs.Cider, _needs);
+            UpdateNeeds(labelLinenGarments, Needs.LinenGarments, _needs);
+            UpdateNeeds(labelSpices, Needs.Spices, _needs);
+            UpdateNeeds(labelBread, Needs.Bread, _needs);
+            UpdateNeeds(labelBeer, Needs.Beer, _needs);
+            UpdateNeeds(labelLeatherJerkins, Needs.LeatherJerkins, _needs);
+            UpdateNeeds(labelBooks, Needs.Books, _needs);
+            UpdateNeeds(labelCandlesticks, Needs.Candlesticks, _needs);
+            UpdateNeeds(labelMeat, Needs.Meat, _needs);
+            UpdateNeeds(labelWine, Needs.Wine, _needs);
+            UpdateNeeds(labelGlasses, Needs.Glasses, _needs);
+            UpdateNeeds(labelFurCoats, Needs.FurCoats, _needs);
+            UpdateNeeds(labelBrocadeRobes, Needs.BrocadeRobes, _needs);
+            UpdateNeeds(labelDates, Needs.Dates, _needs);
+            UpdateNeeds(labelMilk, Needs.Milk, _needs);
+            UpdateNeeds(labelCarpets, Needs.Carpets, _needs);
+            UpdateNeeds(labelCoffee, Needs.Coffee, _needs);
+            UpdateNeeds(labelPearlNecklaces, Needs.PearlNecklaces, _needs);
+            UpdateNeeds(labelParfum, Needs.Parfum, _needs);
+            UpdateNeeds(labelMarzipan, Needs.Marzipan, _needs);
+        }
+
+        private void UpdateNeeds(Label label, Needs index, float[] buffer)
+        {
+            int idx = (int)index;
+            float value = buffer[idx];
+
+            label.ForeColor = (int)value == (int)needs[idx] ? Color.Black : Color.Red;
+            label.Text = value.ToString("F2");
+
+            needs[idx] = value;
         }
 
         private void UpdateTimer()
